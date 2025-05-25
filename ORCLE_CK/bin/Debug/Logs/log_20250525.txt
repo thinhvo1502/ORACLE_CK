@@ -1,0 +1,72 @@
+[2025-05-25 15:57:24] [INFO] Logger initialized
+[2025-05-25 15:57:24] [INFO] Application starting...
+[2025-05-25 15:57:26] [ERROR] Database connection error: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at OracleInternal.Common.ProviderConfig.NewOraFileParams(OraFiles file, String filePath, Hashtable theParams, Boolean ObCfg)
+   at OracleInternal.Common.CustomConfigFileReader.ParseConfigFile()
+   at OracleInternal.Common.ConfigBaseClass.GetInstance(Boolean bIsManaged)
+   at OracleInternal.Common.ProviderConfig..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor(String connectionString)
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 25
+[2025-05-25 15:57:26] [ERROR] Database connection test failed: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.Exception: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 31
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 39
+[2025-05-25 15:57:45] [INFO] Application closing...
+[2025-05-25 16:00:05] [INFO] Logger initialized
+[2025-05-25 16:00:05] [INFO] Application starting...
+[2025-05-25 16:00:07] [ERROR] Database connection error: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at OracleInternal.Common.ProviderConfig.NewOraFileParams(OraFiles file, String filePath, Hashtable theParams, Boolean ObCfg)
+   at OracleInternal.Common.CustomConfigFileReader.ParseConfigFile()
+   at OracleInternal.Common.ConfigBaseClass.GetInstance(Boolean bIsManaged)
+   at OracleInternal.Common.ProviderConfig..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor(String connectionString)
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 25
+[2025-05-25 16:00:07] [ERROR] Database connection test failed: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.Exception: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 31
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 39
+[2025-05-25 16:00:25] [ERROR] Error in AuthenticateUser: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username)
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in E:\HK5\ORCLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+[2025-05-25 16:00:25] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username)
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in E:\HK5\ORCLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in E:\HK5\ORCLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in E:\HK5\ORCLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-25 16:01:01] [INFO] Application closing...
+[2025-05-25 16:03:15] [INFO] Logger initialized
+[2025-05-25 16:03:15] [INFO] Application starting...
+[2025-05-25 16:03:17] [ERROR] Database connection error: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at OracleInternal.Common.ProviderConfig.NewOraFileParams(OraFiles file, String filePath, Hashtable theParams, Boolean ObCfg)
+   at OracleInternal.Common.CustomConfigFileReader.ParseConfigFile()
+   at OracleInternal.Common.ConfigBaseClass.GetInstance(Boolean bIsManaged)
+   at OracleInternal.Common.ProviderConfig..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleConnection..ctor(String connectionString)
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 25
+[2025-05-25 16:03:17] [ERROR] Database connection test failed: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+Exception: System.Exception: Không thể kết nối database: The type initializer for 'OracleInternal.Common.ProviderConfig' threw an exception.
+   at ORCLE_CK.Data.DatabaseConnection.GetConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 31
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in E:\HK5\ORCLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 39
+[2025-05-25 16:03:21] [INFO] Application closing...
