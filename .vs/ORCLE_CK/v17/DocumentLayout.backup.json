@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\exceptions\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\exceptions\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\exceptions\\serviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\forms\\adduserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +55,7 @@
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\data\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|d:\\cnttb\\c\u0111 oracle\\oracle_ck\\orcle_ck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\orcle_ck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9846C0B1-F55E-46B1-BE8B-5F8D915AAE3B}|ORCLE_CK\\ORCLE_CK.csproj|solutionrelative:orcle_ck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,8 +99,7 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T08:19:45.409Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -110,7 +109,7 @@
               "RelativeDocumentMoniker": "ORCLE_CK\\App.config",
               "ToolTip": "D:\\CNTTB\\C\u0110 Oracle\\ORACLE_CK\\ORCLE_CK\\App.config",
               "RelativeToolTip": "ORCLE_CK\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-26T15:13:54.194Z",
               "EditorCaption": ""
@@ -125,8 +124,7 @@
               "RelativeToolTip": "ORCLE_CK\\Exceptions\\ServiceException.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:08:54.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:08:54.523Z"
             },
             {
               "$type": "Document",
@@ -138,8 +136,7 @@
               "RelativeToolTip": "ORCLE_CK\\Data\\Repositories\\CourseRepository.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:08:45.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:08:45.945Z"
             },
             {
               "$type": "Document",
@@ -151,8 +148,7 @@
               "RelativeToolTip": "ORCLE_CK\\Constants\\AppConstants.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:08:41.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:08:41.258Z"
             },
             {
               "$type": "Document",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "ORCLE_CK\\Data\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAewJcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:44:57.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T14:44:57.572Z"
             },
             {
               "$type": "Document",
@@ -177,8 +172,7 @@
               "RelativeToolTip": "ORCLE_CK\\Services\\CourseService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:42:34.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T14:42:34.951Z"
             },
             {
               "$type": "Document",
@@ -190,8 +184,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\AddUserForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:55:50.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:55:50.64Z"
             },
             {
               "$type": "Document",
@@ -227,8 +220,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\MainForm.cs",
               "ViewState": "AgIAAKMBAAAAAAAAAAAAAMEBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:49:39.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:49:39.678Z"
             },
             {
               "$type": "Document",
@@ -240,8 +232,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\LoginForm.Designer.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:37:44.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:37:44.194Z"
             },
             {
               "$type": "Document",
@@ -253,8 +244,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\LoginForm.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAewEkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:35:59.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:35:59.582Z"
             },
             {
               "$type": "Document",
@@ -266,8 +256,7 @@
               "RelativeToolTip": "ORCLE_CK\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:34:19.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:34:19.839Z"
             },
             {
               "$type": "Document",
@@ -291,8 +280,7 @@
               "RelativeToolTip": "ORCLE_CK\\Services\\UserService.cs",
               "ViewState": "AgIAAKIAAAAAAAAAAAAQwKgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:26:46.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:26:46.214Z"
             },
             {
               "$type": "Document",
@@ -304,8 +292,7 @@
               "RelativeToolTip": "ORCLE_CK\\Data\\Repositories\\IUserRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA3wA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:19:14.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T08:19:14.955Z"
             },
             {
               "$type": "Document",
@@ -317,8 +304,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\AboutForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:27:51.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T07:27:51.657Z"
             },
             {
               "$type": "Document",
@@ -330,8 +316,7 @@
               "RelativeToolTip": "ORCLE_CK\\Forms\\AccountInfoForm.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAuwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:54:57.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T07:54:57.521Z"
             }
           ]
         }
