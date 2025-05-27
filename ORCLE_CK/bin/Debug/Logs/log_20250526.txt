@@ -1,0 +1,465 @@
+[2025-05-26 08:29:01] [INFO] Logger initialized
+[2025-05-26 08:29:01] [INFO] Application starting...
+[2025-05-26 08:29:03] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 08:30:41] [INFO] Application closing...
+[2025-05-26 08:37:05] [INFO] Logger initialized
+[2025-05-26 08:37:05] [INFO] Application starting...
+[2025-05-26 08:37:07] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 08:37:23] [ERROR] Error getting user by username student1: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 08:37:23] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 08:37:23] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 08:37:30] [INFO] Application closing...
+[2025-05-26 21:39:25] [INFO] Logger initialized
+[2025-05-26 21:39:25] [INFO] Application starting...
+[2025-05-26 21:39:28] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 21:39:36] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 21:39:36] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 21:39:36] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 21:39:44] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 21:39:44] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 21:39:44] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 21:41:02] [INFO] Logger initialized
+[2025-05-26 21:41:02] [INFO] Application starting...
+[2025-05-26 21:41:04] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 21:41:09] [ERROR] Error getting user by username adsf: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 21:41:09] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 21:41:09] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 21:41:14] [INFO] Application closing...
+[2025-05-26 21:52:27] [INFO] Logger initialized
+[2025-05-26 21:52:27] [INFO] Application starting...
+[2025-05-26 21:52:30] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 21:52:40] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 21:52:40] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 21:52:40] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 113
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 21:52:43] [INFO] Application closing...
+[2025-05-26 22:07:17] [INFO] Logger initialized
+[2025-05-26 22:07:17] [INFO] Application starting...
+[2025-05-26 22:07:19] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 22:07:32] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 22:07:32] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 22:07:32] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 22:07:41] [INFO] Application closing...
+[2025-05-26 22:09:51] [INFO] Logger initialized
+[2025-05-26 22:09:51] [INFO] Application starting...
+[2025-05-26 22:09:53] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 22:10:06] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 22:10:06] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 22:10:06] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 22:10:49] [INFO] Logger initialized
+[2025-05-26 22:10:49] [INFO] Application starting...
+[2025-05-26 22:10:51] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 22:11:11] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 22:11:11] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 22:11:11] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 22:11:49] [INFO] Application closing...
+[2025-05-26 22:18:34] [INFO] Logger initialized
+[2025-05-26 22:18:34] [INFO] Application starting...
+[2025-05-26 22:18:36] [ERROR] Database connection test failed: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.DatabaseConnection.TestConnection() in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\DatabaseConnection.cs:line 41
+[2025-05-26 22:18:45] [ERROR] Error getting user by username dsfg: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 22:18:45] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 22:18:45] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 22:19:01] [ERROR] Error getting user by username nguyenvanan: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 88
+[2025-05-26 22:19:01] [ERROR] Error in AuthenticateUser: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception.
+Exception: System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+[2025-05-26 22:19:01] [ERROR] Login error: Lỗi xác thực người dùng
+Exception: ORCLE_CK.Exceptions.ServiceException: Lỗi xác thực người dùng ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.Client.OracleCommand' threw an exception. ---> System.TypeInitializationException: The type initializer for 'Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource' threw an exception. ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=6.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.OpenTelemetry.OracleActivitySource..ctor()
+   at Oracle.ManagedDataAccess.Client.OracleCommand..cctor()
+   --- End of inner exception stack trace ---
+   at Oracle.ManagedDataAccess.Client.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at ORCLE_CK.Data.Repositories.UserRepository.GetUserByUsername(String username) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Data\Repositories\UserRepository.cs:line 112
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 147
+   --- End of inner exception stack trace ---
+   at ORCLE_CK.Services.UserService.AuthenticateUser(String username, String password) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Services\UserService.cs:line 168
+   at ORCLE_CK.Forms.LoginForm.btnLogin_Click(Object sender, EventArgs e) in D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\Forms\LoginForm.cs:line 51
+[2025-05-26 22:19:02] [INFO] Application closing...

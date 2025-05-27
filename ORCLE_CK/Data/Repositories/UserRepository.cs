@@ -87,9 +87,8 @@ namespace ORCLE_CK.Data.Repositories
                 {
                     connection.Open();
 
-                    string sql = @"SELECT user_id, full_name, username, email, password, role, 
-                                  created_at, last_login_at, is_active 
-                                  FROM Users WHERE username = :username AND is_active = 1";
+                    username.Trim();
+                    string sql = @"SELECT * FROM Users WHERE username = :username AND is_active = 1";
 
                     using (var command = new OracleCommand(sql, connection))
                     {

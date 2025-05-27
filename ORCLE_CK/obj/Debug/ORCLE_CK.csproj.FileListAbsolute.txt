@@ -11,3 +11,22 @@ E:\HK5\ORCLE_CK\ORCLE_CK\bin\Debug\System.Text.Encodings.Web.dll
 E:\HK5\ORCLE_CK\ORCLE_CK\bin\Debug\System.ValueTuple.dll
 E:\HK5\ORCLE_CK\ORCLE_CK\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 E:\HK5\ORCLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.csproj.Up2Date
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\ORCLE_CK.exe.config
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\ORCLE_CK.exe
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\ORCLE_CK.pdb
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Text.Json.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Memory.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Text.Encodings.Web.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.ValueTuple.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Numerics.Vectors.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Buffers.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.csproj.AssemblyReference.cache
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.exe.config
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.csproj.CoreCompileInputs.cache
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.csproj.Up2Date
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.exe
+D:\CNTTB\CĐ Oracle\ORACLE_CK\ORCLE_CK\obj\Debug\ORCLE_CK.pdb
